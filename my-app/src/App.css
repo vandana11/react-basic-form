@@ -3,18 +3,24 @@
 }
 .App {
   text-align: center;
-}
-.Container{
-  width: 400px;
-  height: auto;
+  width: 900px;
+  display:flex;
   left: 50%;
   position: absolute;
-  margin-left: -200px;
+  margin-left: -450px;
   top: 50%;
   margin-top: -200px;
+  height:400px;
+  justify-content: space-between;
+}
+/* .Container{  
+  height: auto;
+ 
   background:#e1ebf0;
   padding:20px 0px 0px
-}
+} */
+
+.content{width:48%;}
 .Form-control{
   background-color: #0089cf;
   padding: 20px 40px;
@@ -33,7 +39,13 @@ label{
     display: block;
 }
 .h1{
-  width:100%
+  width: 100%;
+    font-size: 18px;
+    font-weight: normal;
+    background: #f1f1f1;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+    box-shadow: 0px -8px 0px 0px black;
 }
 .Btn{
 width:100%;
